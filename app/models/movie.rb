@@ -12,4 +12,23 @@ class Movie
     @@all
   end
 
+  def queue_items
+    QueueItem.all.select do|item|
+      item.movie == self
+    end
+  end
+
+  def viewers
+    queue_items.map do |item|
+      item.viewer
+    end
+  end
+
+  def average_rating
+    arr = queue_items
+    arr.inject{ |sum, el| sum + el }.to_f / arr.size
+  end
+
+  def highest_rated
+  end
 end

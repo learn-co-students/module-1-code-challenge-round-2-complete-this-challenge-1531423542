@@ -1,0 +1,19 @@
+current directory: /Users/YY/Flatiron/module-1-code-challenge-round-2-complete-this-challenge-1531423542/.bundle/gems/byebug-8.2.2/ext/byebug
+/Users/YY/.rvm/rubies/ruby-2.3.3/bin/ruby -r ./siteconf20180712-49924-12pt2m4.rb extconf.rb
+creating Makefile
+
+current directory: /Users/YY/Flatiron/module-1-code-challenge-round-2-complete-this-challenge-1531423542/.bundle/gems/byebug-8.2.2/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /Users/YY/Flatiron/module-1-code-challenge-round-2-complete-this-challenge-1531423542/.bundle/gems/byebug-8.2.2/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.bundle
+
+current directory: /Users/YY/Flatiron/module-1-code-challenge-round-2-complete-this-challenge-1531423542/.bundle/gems/byebug-8.2.2/ext/byebug
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 byebug.bundle ./.gem.20180712-49924-1ikwwgb/byebug
